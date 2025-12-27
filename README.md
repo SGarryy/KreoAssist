@@ -50,7 +50,8 @@ KreoAssist addresses these challenges by enabling **decentralized communication,
   - Custom alerts
 - Designed to remain operational in network blackout zones
 
-![Mesh Network Interface](docs/screenshots/mesh_network.jpg)
+![Mesh Network Interface]
+<img src="docs/screenshots/mesh_network.jpg" width="360"/>
 
 ---
 
@@ -60,7 +61,8 @@ KreoAssist addresses these challenges by enabling **decentralized communication,
 - Supports offline processing for privacy and reliability
 - Ensures assistance remains available during complete connectivity loss
 
-![AI Assistant Screen](docs/screenshots/ai_assistant.jpg)
+![AI Assistant Screen]
+<img src="docs/screenshots/ai_assistant.jpg" width="360"/>
 
 ---
 
@@ -74,9 +76,11 @@ KreoAssist addresses these challenges by enabling **decentralized communication,
   - Ambulance (102)
 - Quick safety-status broadcasts for rapid coordination
 
-![Emergency SOS Screen – Main](docs/screenshots/sos_dashboard.jpg)
+![Emergency SOS Screen – Main]
+<img src="docs/screenshots/sos_dashboard.jpg" width="340"/>
 
-![Emergency SOS Screen – Emergency Services](docs/screenshots/emergency_sos.jpg)
+![Emergency SOS Screen – Emergency Services]
+<img src="docs/screenshots/emergency_sos.jpg" width="340"/>
 
 ---
 
@@ -86,7 +90,8 @@ KreoAssist addresses these challenges by enabling **decentralized communication,
 - Fully functional without internet connectivity
 - AI-assisted follow-up questions when available
 
-![Offline First Aid Guide](docs/screenshots/first_aid_guide.jpg)
+![Offline First Aid Guide]
+<img src="docs/screenshots/first_aid_guide.jpg" width="360"/>
 
 ---
 
@@ -117,7 +122,8 @@ Flow description:
 - Emergency packets are broadcast to nearby devices via mesh networking
 - Mesh nodes propagate safety status locally
 
-![System Flow Diagram](docs/screenshots/system_flow.png)
+![System Flow Diagram]
+<img src="docs/screenshots/system_flow.png" width="520"/>
 
 ---
 
@@ -134,7 +140,8 @@ Data flow:
 - SOS message payload is broadcast over the mesh network
 - Nearby devices receive and display emergency status updates
 
-![SOS Data Flow Diagram](docs/screenshots/sos_dfd.png)
+![SOS Data Flow Diagram]
+<img src="docs/screenshots/sos_dfd.png" width="520"/>
 
 ---
 
@@ -148,7 +155,8 @@ KreoAssist follows a modular architecture designed to support both online and of
 - SOS handler manages emergency signaling
 - Mesh controller distributes messages to nearby devices
 
-![System Architecture Diagram](docs/screenshots/system_architecture.png)
+![System Architecture Diagram]
+<img src="docs/screenshots/system_architecture.png" width="560"/>
 
 ---
 
