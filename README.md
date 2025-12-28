@@ -183,10 +183,12 @@ Other platform-specific directories (android, ios, macos) follow standard Flutte
 
 In Round 2, KreoAssist will be expanded from a functional prototype into a more **scalable and governance-ready emergency platform**.
 
-### 1. Scalability & Network Reliability
-- Message prioritization (SOS over non-critical updates)
-- Message expiration (TTL) to reduce mesh congestion
-- Battery-aware communication optimization
+### 1. Missing Person Finder (Disaster Context)
+- Enables users to upload details and photographs of missing family members during disaster situations.
+- Allows other users to report sightings through the application.
+- Utilizes AI-assisted face matching (when connectivity permits) to support identification.
+- Designed with privacy safeguards and limited offline matching where feasible.
+- Aims to assist faster family reunification during evacuation and relief operations.
 
 ### 2. Advanced Offline Navigation
 - Integration of offline maps using OpenStreetMap
@@ -201,9 +203,19 @@ In Round 2, KreoAssist will be expanded from a functional prototype into a more 
 - Support for regional Indian languages
 - Voice-triggered SOS and guidance for injured or visually impaired users
 
-### 5. Extended Communication (Experimental)
+### 5. Extended Communication
 - Exploration of long-range communication using LoRa-based hardware
 - Integration with IoT sensors for automated hazard detection and alerts
+- Expected effective range between **1–10 kilometers**, depending on:
+  - Number of active users
+  - Device density in the affected area
+  - Environmental conditions
+
+### 6. Voice-Based Emergency Assistance
+- Voice-triggered SOS activation for hands-free emergency usage.
+- Spoken first-aid guidance for injured, elderly, or visually impaired users.
+- Designed for low-visibility and high-stress environments.
+- Planned multilingual voice support for broader accessibility.
 
 ---
 
