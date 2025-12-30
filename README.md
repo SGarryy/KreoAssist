@@ -101,7 +101,7 @@ KreoAssist addresses these challenges by enabling **decentralized communication,
 
 <p align="center">
   <img src="docs/screenshots/sos_dashboard1.jpg" width="220"/>
-  <img src="docs/screenshots/sos_dashboard1.jpg" width="220"/>
+  <img src="docs/screenshots/sos_dashboard2.jpg" width="220"/>
   <img src="docs/screenshots/emergency_sos.jpg" width="200"/>
 </p>
 
