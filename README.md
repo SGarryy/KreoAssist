@@ -102,15 +102,20 @@ KreoAssist addresses these challenges by enabling **decentralized communication,
 
 ---
 
-### 🏥 Offline First-Aid Guide
-- Step-by-step instructions for common emergency scenarios
-- Categorized access for rapid navigation
-- Fully functional without internet connectivity
-- AI-assisted follow-up questions when available
+### 🏥 Offline First-Aid Guide & Digital Medical ID
+- Step-by-step instructions for common emergency scenarios.
+- Categorized access for rapid navigation.
+- Fully functional without internet connectivity.
+- AI-assisted follow-up questions when available.
+- Integrated **Digital Medical ID** feature:
+  - Stores critical medical information such as blood group, allergies, and chronic conditions.
+  - Can be displayed on the lock screen or persistently for rescuers during emergencies.
+  - Allows sharing of medical information with trusted contacts for faster response.
 
-<img src="docs/screenshots/first_aid_guide.jpg" width="300"/>
-
----
+<p align="center">
+  <img src="docs/screenshots/first_aid_guide.jpg" width="280"/>
+  <img src="docs/screenshots/digital_medical_id.jpg" width="240"/>
+</p>
 
 ## 🎨 Design Considerations
 
