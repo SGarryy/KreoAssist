@@ -96,7 +96,7 @@ KreoAssist addresses these challenges by enabling **decentralized communication,
 - Quick safety-status broadcasts for rapid coordination
 
 <p align="center">
-  <img src="docs/screenshots/quick_dial.jpg" width="280"/>
+  <img src="docs/screenshots/sos_dashboard.jpg" width="280"/>
   <img src="docs/screenshots/emergency_sos.jpg" width="280"/>
 </p>
 
