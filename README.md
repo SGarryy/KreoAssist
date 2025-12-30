@@ -71,7 +71,9 @@ KreoAssist addresses these challenges by enabling **decentralized communication,
   - Custom alerts
 - Designed to remain operational in network blackout zones
 
-<img src="docs/screenshots/mesh_network.jpg" width="300"/>
+<p align="center">
+<img src="docs/screenshots/mesh_network.jpg" width="220"/>
+</p>
 
 ---
 
@@ -81,7 +83,9 @@ KreoAssist addresses these challenges by enabling **decentralized communication,
 - Supports offline processing for privacy and reliability
 - Ensures assistance remains available during complete connectivity loss
 
-<img src="docs/screenshots/ai_assistant.jpg" width="300"/>
+<p align="center">
+<img src="docs/screenshots/ai_assistant.jpg" width="220"/>
+</p>
 
 ---
 
@@ -96,8 +100,8 @@ KreoAssist addresses these challenges by enabling **decentralized communication,
 - Quick safety-status broadcasts for rapid coordination
 
 <p align="center">
-  <img src="docs/screenshots/sos_dashboard.jpg" width="280"/>
-  <img src="docs/screenshots/emergency_sos.jpg" width="250"/>
+  <img src="docs/screenshots/sos_dashboard.jpg" width="220"/>
+  <img src="docs/screenshots/emergency_sos.jpg" width="200"/>
 </p>
 
 ---
