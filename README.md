@@ -95,9 +95,10 @@ KreoAssist addresses these challenges by enabling **decentralized communication,
   - Ambulance (102)
 - Quick safety-status broadcasts for rapid coordination
 
-<img src="docs/screenshots/sos_dashboard.jpg" width="300"/>
-
-<img src="docs/screenshots/emergency_sos.jpg" width="300"/>
+<p align="center">
+  <img src="docs/screenshots/quick_dial.jpg" width="280"/>
+  <img src="docs/screenshots/emergency_sos.jpg" width="280"/>
+</p>
 
 ---
 
