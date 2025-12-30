@@ -17,10 +17,31 @@ The current implementation serves as a **functional prototype**, validating crit
 KreoAssist is implemented as a working prototype with emphasis on **reliability, offline operation, and correctness** during emergency conditions.
 
 ### Implemented Prototype Capabilities
-- Offline device-to-device communication via mesh networking
-- Hybrid AI assistance with automatic online/offline switching
-- One-tap SOS triggering with GPS-based emergency alerts
-- Offline-accessible first-aid guidance for common medical emergencies
+
+- Offline-first application with full usability during network disruptions.
+- Hybrid AI assistant with optional offline model download:
+  - Users can skip downloading the offline AI model during initial setup.
+  - Offline AI can be downloaded later from settings as required.
+  - Online AI remains functional without offline model download.
+- One-tap SOS system with:
+  - Emergency calling to national services (112, 100, 101, 102).
+  - Automatic SMS alerts with GPS location to trusted contacts.
+- Mesh network communication supporting:
+  - Background scanning even when the app is minimized.
+  - Local broadcast of emergency alerts to nearby devices.
+- Safety circle and trusted contacts management.
+- Interactive first-aid guide accessible fully offline.
+- Flashlight and SOS Morse-code blinking mode for low-visibility rescue signaling.
+- Digital Medical Emergency ID:
+  - Stores blood group, allergies, and chronic conditions.
+  - Can be displayed persistently on screen for rescuers during unconscious states.
+  - Can be shared with trusted contacts.
+- Offline maps support:
+  - Users can download specific geographic areas.
+  - Maps remain usable without internet connectivity.
+- In-app feedback and bug reporting system.
+- Built-in app versioning and update notification system:
+  - Users can check for updates directly within the app.
 
 System scalability, extended integrations, and governance-level deployment considerations are **intentionally planned for the next round**.
 
@@ -181,41 +202,38 @@ Other platform-specific directories (android, ios, macos) follow standard Flutte
 
 ## 🚀 Planned Enhancements for Round 2
 
-In Round 2, KreoAssist will be expanded from a functional prototype into a more **scalable and governance-ready emergency platform**.
+In Round 2, KreoAssist will focus on strengthening reliability, scalability, and governance readiness of the already functional system.
 
 ### 1. Missing Person Finder (Disaster Context)
-- Enables users to upload details and photographs of missing family members during disaster situations.
-- Allows other users to report sightings through the application.
-- Utilizes AI-assisted face matching (when connectivity permits) to support identification.
-- Designed with privacy safeguards and limited offline matching where feasible.
-- Aims to assist faster family reunification during evacuation and relief operations.
+- Structured reporting of missing persons during disasters.
+- AI-assisted face matching to support identification when connectivity permits.
+- Privacy-first workflows and governance-aligned safeguards.
+- Integration with local mesh broadcasts and trusted contact coordination.
 
-### 2. Advanced Offline Navigation
-- Integration of offline maps using OpenStreetMap
-- Geo-tagged Safe Zones and Danger Zones
-- Local route guidance based on available safety data
+### 2. Mesh Network Optimization & Scalability
+- Message prioritization to ensure SOS alerts override non-critical traffic.
+- Message expiration (TTL) to reduce congestion in dense disaster zones.
+- Improved multi-hop routing for higher delivery success.
+- Targeted communication range expansion of **1–10 km**, depending on user density and environmental conditions.
 
-### 3. Governance & Official Integration
-- Integration with official disaster alert sources when connectivity is available
-- Standardized emergency data formats for interoperability with public systems
+### 3. Advanced Offline Navigation Enhancements
+- Smarter routing using locally available safety data.
+- Shared geo-tagged Safe Zones and Danger Zones across nearby devices.
+- Improved disaster-aware navigation flows.
 
-### 4. Accessibility & Inclusivity
-- Support for regional Indian languages
-- Voice-triggered SOS and guidance for injured or visually impaired users
+### 4. Governance & Institutional Integration
+- Integration with verified government and disaster-response alert systems.
+- Standardized emergency data formats for interoperability with relief agencies.
+- Alignment with national disaster management protocols.
 
-### 5. Extended Communication
-- Exploration of long-range communication using LoRa-based hardware
-- Integration with IoT sensors for automated hazard detection and alerts
-- Expected effective range between **1–10 kilometers**, depending on:
-  - Number of active users
-  - Device density in the affected area
-  - Environmental conditions
+### 5. Accessibility & Language Expansion
+- Multilingual support for regional Indian languages.
+- Improved UI accessibility for elderly and differently-abled users.
 
 ### 6. Voice-Based Emergency Assistance
-- Voice-triggered SOS activation for hands-free emergency usage.
-- Spoken first-aid guidance for injured, elderly, or visually impaired users.
-- Designed for low-visibility and high-stress environments.
-- Planned multilingual voice support for broader accessibility.
+- Voice-triggered SOS activation for hands-free usage.
+- Spoken first-aid instructions during emergencies.
+- Multilingual and low-connectivity voice interaction support.
 
 ---
 
