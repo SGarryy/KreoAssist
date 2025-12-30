@@ -97,7 +97,7 @@ KreoAssist addresses these challenges by enabling **decentralized communication,
 
 <p align="center">
   <img src="docs/screenshots/sos_dashboard.jpg" width="280"/>
-  <img src="docs/screenshots/emergency_sos.jpg" width="270"/>
+  <img src="docs/screenshots/emergency_sos.jpg" width="250"/>
 </p>
 
 ---
@@ -113,9 +113,9 @@ KreoAssist addresses these challenges by enabling **decentralized communication,
   - Allows sharing of medical information with trusted contacts for faster response.
 
 <p align="center">
-  <img src="docs/screenshots/first_aid_guide.jpg" width="280"/>
-  <img src="docs/screenshots/digital_medical_id1.jpg" width="280"/>
-  <img src="docs/screenshots/digital_medical_id2.jpg" width="280"/>
+  <img src="docs/screenshots/first_aid_guide.jpg" width="230"/>
+  <img src="docs/screenshots/digital_medical_id1.jpg" width="230"/>
+  <img src="docs/screenshots/digital_medical_id2.jpg" width="230"/>
 </p>
 
 ## 🎨 Design Considerations
