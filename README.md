@@ -261,6 +261,10 @@ Contributions include application development, system design, and documentation.
 This repository represents a hackathon prototype focused on validating emergency workflows under real-world constraints.  
 The project prioritizes resilience, offline operation, and governance-aligned disaster response.
 
+> **Versioning Note**  
+> The current repository represents a stable prototype build used for Round-1 evaluation.  
+> The application is under active development, with additional features planned and iterated in subsequent stages of the hackathon.
+
 ---
 
 © 2025 Kreodev. All rights reserved.
